@@ -125,6 +125,6 @@ datasets:
     level: Ccd
     persistable: PropertySet
     python: lsst.daf.base.PropertySet
-    storage: BoostStorage
+    storage: YamlStorage
     tables: raw
-    template: gain/%(run)s/gain%(ccd)s_%(run)s.fits
+    template: gain/%(run)s/gain%(ccd)s_%(run)s.yaml
